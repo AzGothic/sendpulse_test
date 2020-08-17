@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+/** App Type definition */
+defined('APP_TYPE') ||
+define('APP_TYPE', 'cli');
+
+require_once __DIR__ . '/bootstrap.php';
+

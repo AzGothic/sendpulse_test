@@ -1,0 +1,34 @@
+* {
+    outline: none !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+
+label.required:after {
+    content: " *";
+    color: #FF0000;
+}
+
+.error {
+    color: #a94442;
+}
+.warning {
+    color: #985f0d;
+}
+.success {
+    color: #28a745;
+}
